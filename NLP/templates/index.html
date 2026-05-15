@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Assistant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #111118;
+            --bg-card: #16161f;
+            --bg-card-hover: #1c1c28;
+            --border: rgba(255,255,255,0.06);
+            --border-accent: rgba(139, 92, 246, 0.4);
+            --accent: #8b5cf6;
+            --accent-glow: rgba(139, 92, 246, 0.25);
+            --accent-2: #34d399;
+            --accent-2-glow: rgba(52, 211, 153, 0.2);
+            --text-primary: #e8e8f0;
+            --text-secondary: #7f7f9a;
+            --text-muted: #4a4a60;
+            --error: #f87171;
+            --error-glow: rgba(248, 113, 113, 0.2);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 300;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Subtle background texture */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(139,92,246,0.08) 0%, transparent 60%),
+                radial-gradient(ellipse 40% 40% at 80% 80%, rgba(52,211,153,0.04) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .chat-container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 60px 20px 80px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        .page-header {
+            text-align: center;
+            margin-bottom: 52px;
+        }
+
+        .header-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--accent);
+            background: rgba(139,92,246,0.1);
+            border: 1px solid rgba(139,92,246,0.2);
+            border-radius: 100px;
+            padding: 5px 14px;
+            margin-bottom: 18px;
+        }
+
+        .header-eyebrow::before {
+            content: '';
+            width: 6px; height: 6px;
+            border-radius: 50%;
+            background: var(--accent);
+            box-shadow: 0 0 8px var(--accent);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.8); }
+        }
+
+        .page-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 40px);
+            font-weight: 600;
+            color: var(--text-primary);
+            letter-spacing: -0.02em;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        .page-title span {
+            background: linear-gradient(135deg, var(--accent) 0%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-top: 10px;
+            letter-spacing: 0.01em;
+        }
+
+        /* Form */
+        .query-form {
+            margin-bottom: 48px;
+            clear: both;
+        }
+
+        .input-wrapper {
+            display: flex;
+            align-items: stretch;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            overflow: hidden;
+            transition: border-color 0.25s, box-shadow 0.25s;
+        }
+
+        .input-wrapper:focus-within {
+            border-color: var(--border-accent);
+            box-shadow: 0 0 0 3px var(--accent-glow), 0 8px 32px rgba(0,0,0,0.4);
+        }
+
+        .query-input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            outline: none;
+            padding: 18px 22px;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            color: var(--text-primary);
+            caret-color: var(--accent);
+        }
+
+        .query-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .query-input:focus {
+            background: transparent;
+            border: none;
+            box-shadow: none;
+            color: var(--text-primary);
+        }
+
+        /* Override Bootstrap form-control styles */
+        .query-input.form-control {
+            background: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, var(--accent), #7c3aed);
+            color: white;
+            border: none;
+            padding: 18px 28px;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.03em;
+            cursor: pointer;
+            transition: opacity 0.2s, transform 0.15s;
+            white-space: nowrap;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.1), transparent);
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .submit-btn:hover::after { opacity: 1; }
+        .submit-btn:hover { opacity: 0.92; }
+        .submit-btn:active { transform: scale(0.98); }
+
+        /* Conversation */
+        .conversation-block {
+            animation: fadeUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(16px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* User bubble */
+        .user-query {
+            display: inline-block;
+            float: right;
+            clear: both;
+            max-width: 78%;
+            background: linear-gradient(135deg, #6d28d9, var(--accent));
+            color: white;
+            padding: 14px 20px;
+            border-radius: 18px 18px 4px 18px;
+            margin-bottom: 20px;
+            font-size: 14.5px;
+            line-height: 1.6;
+            box-shadow: 0 4px 24px rgba(109,40,217,0.35);
+        }
+
+        .user-query strong {
+            display: block;
+            font-size: 10px;
+            font-weight: 500;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            opacity: 0.7;
+            margin-bottom: 5px;
+        }
+
+        /* AI response */
+        .ai-response {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent-2);
+            padding: 24px 28px;
+            border-radius: 4px 18px 18px 18px;
+            margin-bottom: 30px;
+            clear: both;
+            white-space: pre-wrap;
+            font-size: 14.5px;
+            line-height: 1.75;
+            color: var(--text-primary);
+            box-shadow: 0 4px 32px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.03);
+            position: relative;
+        }
+
+        .ai-response::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, var(--accent-2), transparent);
+            border-radius: 4px 18px 0 0;
+            opacity: 0.4;
+        }
+
+        .ai-response-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+
+        .ai-response strong {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 10px;
+            font-weight: 500;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--accent-2);
+            margin-bottom: 0; /* Reset margin because of flexbox */
+        }
+
+        .ai-response strong::before {
+            content: '✦';
+            font-size: 9px;
+        }
+
+        /* Accuracy Badge */
+        .accuracy-badge {
+            background: rgba(52, 211, 153, 0.1);
+            color: var(--accent-2);
+            border: 1px solid rgba(52, 211, 153, 0.2);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .accuracy-badge::before {
+            content: '';
+            width: 5px; height: 5px;
+            border-radius: 50%;
+            background: var(--accent-2);
+            box-shadow: 0 0 6px var(--accent-2);
+        }
+
+        /* Error state */
+        .error-response {
+            border-left-color: var(--error) !important;
+            box-shadow: 0 4px 32px rgba(0,0,0,0.3), 0 0 0 1px rgba(248,113,113,0.08) !important;
+        }
+
+        .error-response::before {
+            background: linear-gradient(90deg, var(--error), transparent) !important;
+        }
+
+        .error-response strong {
+            color: var(--error) !important;
+        }
+
+        /* Divider */
+        .response-divider {
+            border: none;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border), transparent);
+            margin: 8px 0 16px;
+        }
+
+        /* Bootstrap overrides */
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent), #7c3aed) !important;
+            border: none !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container chat-container">
+
+        <div class="page-header">
+            <div class="header-eyebrow">Intelligent Study Tool</div>
+            <h2 class="page-title">AI <span>Study</span> Assistant</h2>
+            <p class="page-subtitle">Ask anything about your notes and get precise, thoughtful answers.</p>
+        </div>
+
+        <form action="/" method="POST" class="query-form">
+            <div class="input-wrapper">
+                <input
+                    type="text"
+                    name="query"
+                    class="query-input form-control form-control-lg"
+                    placeholder="Ask a question about your notes..."
+                    required
+                    autocomplete="off"
+                >
+                <button class="submit-btn" type="submit">Ask AI →</button>
+            </div>
+        </form>
+
+        {% if user_query %}
+        <div class="conversation-block">
+            <div class="user-query shadow-sm">
+                <strong>You</strong>
+                {{ user_query }}
+            </div>
+
+            <div class="ai-response {% if is_error %}error-response{% endif %}">
+                <div class="ai-response-header">
+                    <strong>AI Assistant</strong>
+                    {% if accuracy and not is_error %}
+                    <span class="accuracy-badge">{{ accuracy }} Confidence</span>
+                    {% endif %}
+                </div>
+                <hr class="response-divider">{{ ai_reply }}
+            </div>
+        </div>
+        {% endif %}
+
+    </div>
+</body>
+</html>

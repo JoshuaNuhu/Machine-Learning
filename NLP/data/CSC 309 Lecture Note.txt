@@ -1,0 +1,1104 @@
+
+
+
+
+
+NIGERIAN ARMY UNIVERSITY, BIU
+FACULTY OF COMPUTING DEPARTMENT OF COMPUTER SCIENCE BORNO STATE, NIGERIA
+
+
+
+
+          CSC309 ARTIFICIAL INTELLIGENCE
+LECTURE NOTE
+
+
+
+
+
+
+
+
+FIRST SEMESTER 2 UNIT COURSE
+
+AN OVERVIEW OF ARTIFICIAL INTELLIGENCE
+What is Artificial Intelligence?
+It is a branch of Computer Science that pursues creating the computers or machines as intelligent as human beings. It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.
+Definition: Artificial Intelligence is the study of how to make computers do things, which, at the moment, people do better. According to the father of Artificial Intelligence, John McCarthy, it is "The science and engineering of making intelligent machines, especially intelligent computer programs". Artificial Intelligence is a way of making a computer, a computer-controlled robot, or a software think intelligently, in the similar manner the intelligent humans think. AI is accomplished by studying how human brain thinks and how humans learn, decide, and work while trying to solve a problem, and then using the outcomes of this study as a basis of developing intelligent software and systems. It has gained prominence recently due to big data, or the increase in speed, size and variety of data businesses are now collecting. AI can perform tasks such as identifying patterns in the data more efficiently than humans, enabling businesses to gain more insight out of their data. From a business perspective AI is a set of very powerful tools, and methodologies for using those tools to solve business problems. From a programming perspective, AI includes the study of symbolic programming, problem solving, and search.
+
+The Birth of AI: Tracing the Origins
+The journey of Artificial Intelligence (AI) is a fascinating one, tracing its roots back to the mid-20th century. To truly appreciate the complexity and potential of AI as we know it today, it is essential to understand its origins and the key milestones that shaped its development.
+The Dawn of AI: The Dartmouth Conference
+In 1956, a group of pioneering scientists gathered at Dartmouth College for what would become known as the Dartmouth Conference. This event is often hailed as the birthplace of AI. The conference brought together researchers from various fields, including mathematics, computer science, and psychology, to discuss the possibility of creating machines that could simulate human intelligence.
+John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon were among the key participants. They proposed the idea of a machine that could learn, reason, and solve problems, much like a human. This conference laid the groundwork for what would become a rapidly evolving field. Early AI Programs: Logic Theorist and General Problem Solver
+Following the Dartmouth Conference, the first AI programs began to emerge. One of the earliest and most notable was the Logic Theorist, developed by Allen Newell and Herbert A. Simon in 1956. This program was designed to prove mathematical theorems using logical reasoning. It demonstrated that machines could perform tasks that required human-like thinking.
+Another significant development was the General Problem Solver (GPS), also created by Newell and Simon. GPS was an attempt to create a program that could solve a wide range of problems using heuristics, or rules of thumb. Although it had limitations, GPS was a crucial step towards developing more versatile AI systems.
+The Rise of Expert Systems
+In the 1970s and 1980s, AI research shifted towards developing expert systems. These systems were designed to replicate the decision-making ability of a human expert in a specific domain. One of the most famous expert systems was MYCIN, developed by Edward Shortliffe at Stanford University. MYCIN was used to diagnose blood infections and suggest appropriate antibiotics.
+
+Expert systems like MYCIN demonstrated the potential of AI to assist in complex decision-making processes. However, they also highlighted the limitations of rule-based systems, as they struggled to handle uncertainties and ambiguities.
+The AI Winter and the Rebirth of Neural Networks
+The late 1980s and early 1990s saw a period known as the "AI Winter," characterized by a significant reduction in funding and interest in AI research. Many expert systems failed to live up to their promises, leading to disillusionment among investors and researchers.
+However, during this period, a critical development was taking place: the revival of neural networks. Inspired by the structure and function of the human brain, neural networks consist of layers of interconnected nodes that can learn from data. The introduction of backpropagation, a method for training neural networks, revolutionized the field and laid the foundation for the modern era of AI. The Modern Era of AI: Deep Learning and Big Data
+The 21st century has witnessed an explosion of AI research and applications, driven by advancements in computing power, the availability of big data, and the development of deep learning techniques. Deep learning, a subset of machine learning, involves training artificial neural networks with multiple layers to recognize patterns and make decisions.
+Applications of AI have become ubiquitous, from virtual assistants like Siri and Alexa to self-driving cars and advanced medical diagnostics. The ability of AI to process and analyze vast amounts of data has transformed industries and opened up new possibilities for innovation.
+Key Figures and Contributions
+Throughout the history of AI, several key figures have made significant contributions to the field. Alan Turing, often considered the father of computer science, laid the theoretical groundwork for AI with his concept of the Turing machine and the Turing test. Geoffrey Hinton, Yann LeCun, and Yoshua Bengio are modern pioneers who have made groundbreaking advancements in deep learning. Ethical Considerations and the Future of AI
+As AI continues to evolve, it is crucial to consider the ethical implications of its development and deployment. Issues such as bias in algorithms, privacy concerns, and the potential impact on employment must be addressed to ensure that AI benefits society as a whole.
+The future of AI holds immense potential, with ongoing research in areas such as explainable AI, quantum computing, and human-AI collaboration. By understanding the origins and evolution of AI, we can better appreciate the challenges and opportunities that lie ahead.
+In conclusion, the birth of AI is a story of innovation, collaboration, and perseverance. From the Dartmouth Conference to the modern era of deep learning, the field has come a long way. As we continue to explore the possibilities of AI, it is essential to build upon the foundations laid by the pioneers who dared to imagine a world where machines could think and learn like humans.
+AI Milestones: Charting the Progress
+
+One of the earliest and most significant milestones was the creation of the first AI programs in the 1950s. Building on the foundational concepts introduced earlier, researchers developed simple algorithms capable of performing basic tasks like playing checkers or proving mathematical theorems. These early programs, though rudimentary by today's standards, laid the groundwork for more complex AI systems.
+A pivotal moment came in 1956 with the Dartmouth Conference, where the term "Artificial Intelligence" was coined. This conference brought together leading thinkers in the field, fostering collaboration and setting the stage for future research. The ideas discussed at Dartmouth continue to influence AI development to this day.
+The 1960s and 1970s saw the emergence of expert systems, a type of AI designed to mimic the decision-making ability of a human expert. These systems, which relied on rule-based programming, found applications in fields like medicine and engineering. The success of expert systems demonstrated the practical potential of AI, even as researchers grappled with the limitations of this approach.
+
+The introduction of machine learning in the 1980s marked another major milestone. Unlike rule- based systems, machine learning algorithms allowed computers to learn from data, improving their performance over time. This breakthrough paved the way for more sophisticated AI applications, from image recognition to natural language processing.
+The 1990s and 2000s witnessed exponential growth in computing power and data availability, fueling rapid advancements in AI. During this period, we saw the rise of neural networks and deep learning, techniques that mimic the structure and function of the human brain. These technologies enabled AI systems to tackle complex tasks with unprecedented accuracy.
+In recent years, AI has made remarkable strides in areas like autonomous vehicles, healthcare diagnostics, and natural language understanding. These achievements would not have been possible without the foundational work and milestones we've discussed. As we continue to build upon this legacy, the future of AI holds even greater promise.
+Understanding these milestones is crucial for appreciating the current state of AI and anticipating future developments. By recognizing the progress made thus far, we can better grasp the challenges and opportunities that lie ahead in this rapidly evolving field.
+
+GOALS OF ARTIFICIAL INTELLIGENCE
+The goals of AI define why intelligent systems are developed and what they are expected to achieve.
+a. Simulating Human Intelligence
+AI aims to model and simulate human cognitive abilities such as:
+i. Thinking
+ii. Learning
+iii. Reasoning
+iv. Decision-making
+These four features allow machines to behave intelligently in real-world situations.
+b. Learning and Adaptation
+AI systems are designed to:
+i. Learn from past experiences and data
+ii. Improve performance without explicit reprogramming
+iii. Adapt to new environments and situations
+c. Problem Solving and Optimization
+AI seeks to:
+i. Solve complex and large-scale problems efficiently
+ii. Find optimal or near-optimal solutions in limited time
+Examples include route planning, scheduling, and resource allocation.
+d. Automation of Intelligent Tasks
+AI aims to automate tasks that:
+i. Are repetitive or time-consuming
+ii. Are dangerous for humans
+iii. Require high precision or consistency
+Examples include industrial robots and surveillance systems.
+e. Supporting Human Decision-Making
+AI assists humans by:
+i. Providing predictions and recommendations
+ii. Analyzing large datasets
+iii. Reducing human error in critical applications such as healthcare and finance
+
+AI TECHNIQUES
+AI techniques are the methods, strategies, and tools used to build intelligent systems.
+a. Search Techniques
+Search is fundamental to AI problem-solving.
+i. Uninformed (Blind) Search: Breadth-First Search (BFS), Depth-First Search (DFS)
+ii. Informed (Heuristic) Search: A*, Greedy Best-First Search These techniques explore possible states to reach a goal.
+b. Knowledge Representation
+
+Knowledge representation deals with how information is stored and used. Common methods include:
+i. Logical representations (Propositional and Predicate Logic)
+ii. Semantic Networks
+iii. Frames
+iv. Ontologies
+c. Reasoning and Inference
+Reasoning allows AI systems to:
+i. Draw conclusions from known facts
+ii. Make decisions under uncertainty Types include:
+* Deductive reasoning
+* Inductive reasoning
+* Probabilistic reasoning (e.g., Bayesian inference)
+d. Machine Learning Techniques
+Machine learning enables systems to learn from data.
+i. Supervised Learning: classification and regression
+ii. Unsupervised Learning: clustering and association
+iii. Reinforcement Learning: learning through rewards and penalties
+e. Heuristic Techniques
+Heuristics are experience-based rules that:
+i. Reduce search space
+ii. Improve efficiency
+iii. Provide approximate solutions when exact solutions are impractical
+
+TYPES OF ARTIFICIAL INTELLIGENCE
+AI can be classified based on capability and intelligence level.
+3.1 Narrow AI (Weak AI)
+* Designed to perform a specific task
+* Cannot generalize beyond its domain
+* Examples: chatbots, recommendation systems, face recognition
+3.2 General AI (Strong AI)
+* Possesses human-like intelligence
+* Can perform any intellectual task a human can
+* Has reasoning, learning, and self-awareness
+* Currently theoretical and under research
+3.3 Super AI
+* Exceeds human intelligence in all aspects
+* Can outperform humans in creativity, reasoning, and decision-making
+* Raises ethical and safety concerns
+* Still hypothetical
+
+Branches and Applications Of Ai. Branches of AI
+AI is a broad field with multiple specialized branches.
+1. Machine learning
+Focuses on developing algorithms that allow systems to learn from data. Applications include prediction, classification, and pattern recognition.
+2. Deep Learning
+A subset of machine learning using artificial neural networks with multiple layers. Used in speech recognition, image analysis, and autonomous systems.
+3. Natural Language Processing (NLP)
+Enables machines to understand, interpret, and generate human language. Examples: machine translation, chatbots, sentiment analysis.
+4. Computer Vision
+Allows machines to interpret visual information from images and videos. Applications include facial recognition, medical imaging, and surveillance.
+
+5. Expert Systems
+Computer systems that emulate the decision-making ability of human experts. Components include:
+i. Knowledge base
+ii. Inference engine
+6. Robotics
+Combines AI with mechanical engineering to build intelligent machines. Robots can perceive, reason, and act in physical environments.
+7. Fuzzy Logic
+Handles uncertainty and imprecision in decision-making.
+Used in control systems such as washing machines and traffic control.
+8. Evolutionary Computing
+Inspired by natural evolution.
+Includes genetic algorithms and swarm intelligence for optimization problems.
+
+Applications of AI
+Artificial Intelligence (AI) has transcended the realms of science fiction and has become a transformative force in our daily lives. From the moment we wake up and check our smartphones to the time we go to bed and use voice-controlled smart home devices, AI is omnipresent. In this lesson, we will delve into some of the most compelling real-world applications of AI, showcasing how it is revolutionizing various sectors and improving our lives.
+Healthcare: AI is making significant strides in the healthcare industry. One of the most remarkable applications is in medical diagnosis. AI algorithms can analyze medical images, such as X-rays and MRIs, with remarkable accuracy. For instance, deep learning models have been trained to detect breast cancer in mammograms, often outperforming human radiologists. This not only speeds up the diagnostic process but also reduces the likelihood of human error.
+In addition to diagnosis, AI is also being used to personalize treatment plans. By analyzing a patient's genetic data, medical history, and lifestyle factors, AI can recommend tailored treatments that are more likely to be effective. This approach, known as precision medicine, holds the promise of improving patient outcomes and reducing healthcare costs.
+Transportation: The transportation sector is undergoing a profound transformation thanks to AI. Self-driving cars, a concept that once seemed like a distant future, are now a reality. Companies like Tesla and Waymo are at the forefront of developing autonomous vehicles that can navigate roads, detect obstacles, and make real-time decisions. These vehicles have the potential to reduce accidents caused by human error, improve traffic flow, and provide mobility to individuals who cannot drive. AI is also optimizing public transportation systems. Predictive analytics can forecast passenger demand, allowing transit agencies to adjust schedules and routes dynamically. This not only enhances the passenger experience but also reduces operational costs.
+Finance: The finance industry has embraced AI to enhance various aspects of its operations. One of the most prominent applications is in fraud detection. AI algorithms can analyze vast amounts of transaction data in real-time, identifying suspicious patterns that may indicate fraudulent activity. This proactive approach helps financial institutions protect their customers and assets.
+AI is also revolutionizing customer service in the finance sector. Chatbots powered by natural language processing can provide instant assistance to customers, answering questions, and resolving issues without the need for human intervention. This not only improves customer satisfaction but also reduces operational costs for financial institutions.
+Agriculture: AI is playing a crucial role in addressing one of the world's most pressing challenges: feeding a growing global population. In agriculture, AI is being used to optimize crop yields and resource management. Drones equipped with AI-powered sensors can monitor crop health, soil moisture, and pest infestations in real-time. This data allows farmers to make informed decisions about irrigation, fertilization, and pest control, ultimately leading to more sustainable and productive farming practices.
+
+AI is also aiding in the development of precision agriculture techniques. By analyzing data from various sources, including satellite imagery and weather forecasts, AI can recommend optimal planting and harvesting times, helping farmers maximize their yields while minimizing environmental impact.
+Entertainment: The entertainment industry has been quick to adopt AI to enhance the user experience. Streaming platforms like Netflix and Spotify use AI algorithms to recommend movies, TV shows, and music based on users' viewing and listening habits. These personalized recommendations keep users engaged and encourage them to explore new content.
+AI is also transforming the way content is created. In the film industry, AI-generated special effects are becoming increasingly common. These effects can create realistic virtual environments, simulate complex physical phenomena, and even generate lifelike characters. This not only reduces production costs but also expands the creative possibilities for filmmakers.
+Education: AI is revolutionizing the field of education by providing personalized learning experiences. Adaptive learning platforms use AI algorithms to assess a student's strengths and weaknesses and tailor educational content to their individual needs. This approach ensures that students receive the right level of challenge and support, promoting more effective learning.
+AI-powered tutoring systems can provide real-time feedback and assistance to students, helping them overcome obstacles and master difficult concepts. This not only enhances the learning experience but also empowers students to take control of their education.
+In conclusion, AI is not just a buzzword; it is a powerful technology that is reshaping our world in profound ways. From healthcare and transportation to finance, agriculture, entertainment, and education, AI is driving innovation and improving our lives. As we continue to explore the potential of AI, it is essential to consider the ethical implications and ensure that this technology is used for the greater good.
+Advantages and Disadvantages of AI. Advantages of AI
+1. Enhanced accuracy and reliability
+AI systems are designed to execute tasks with consistent precision without fatigue or deviation, which is especially important in data-intensive or safety-critical applications such as medical diagnosis, image recognition, and automated decision support.
+This aligns with core curriculum goals of understanding performance and reliability in AI systems.
+2. Increased speed and efficiency
+AI can process large datasets, perform complex computations, and make decisions faster than humans. This supports key computing learning outcomes like problem solving, data analysis, and algorithmic thinking, essential components of AI courses.
+3. Automation of repetitive tasks
+AI helps automate repetitive, time-consuming work, freeing human effort for creative and strategic tasks. For example:
+i. Automated customer service (chatbots)
+ii. Factory production lines
+iii. Data extraction and reporting
+4. 24/7 Availability
+Unlike humans, AI does not require rest and can operate continuously-ideal for continuous monitoring systems and services. This gives students insights into lifecycle considerations and operational characteristics of intelligent systems.
+5. Handling dangerous environments
+AI systems can be deployed in high-risk environments (e.g., disaster response, toxic areas, deep-sea exploration) where human involvement would be unsafe. Understanding safety limitations and system deployment is part of CCMAS learning goals.
+6. Improved data-driven decision making
+AI enables advanced data analysis, pattern recognition, forecasting, and decision support-skills highlighted in AI learning outcomes such as interpretation of data output and performance evaluation.
+
+Disadvantages of AI
+1. High cost of development and maintenance
+Developing AI systems can be expensive due to:
+i. Need for specialized hardware
+ii. Skilled personnel
+iii. Regular maintenance and updates
+2. Potential job displacement
+AI's automation of tasks, especially in routine roles, may lead to workforce restructuring and job loss if not
+managed with policy and reskilling programmes.
+3. Lack of human qualities
+AI systems do not possess emotion, ethics, or moral reasoning. They cannot:
+i. Show empathy
+ii. Make value-based judgments
+4. Dependence on data quality
+AI performance depends heavily on:
+i. Quality of input data
+ii. Data relevance and completeness
+Poor or biased data can produce misleading results, highlighting the importance of data ethics and responsible AI
+5. Ethical, privacy, and security concerns
+AI raises significant ethical questions around:
+i. Surveillance
+ii. Personal data misuse
+iii. Algorithmic bias
+6. Lack of common sense and contextual understanding
+AI cannot fully interpret context like humans do. This limitation underscores why humans must remain in the loop for oversight and complex reasoning, a point emphasized in AI learning outcomes.
+
+INTRODUCTION TO INTELLIGENT AGENTS
+Intelligent agents are entities that use sensors to perceive the environment, make a decision, and act upon that information using actuators. An intelligent agent could be a robot, machine, or even a human or an animal. The sensor that takes in the environment could be a camera, rain sensor, or nose. The intelligent agent processes this information and decides to act upon it. The action could be saving a video, turning off a sprinkler system, or looking for the nearest pizza shop. The actuator is the part that takes action. Intelligent agents make decisions in real time, and the rate of success versus error varies. The purpose of an intelligent agent is to respond to the environment around it.
+Intelligent agents are found throughout many aspects of life. Refrigerators sense temperature in order to determine when additional cooling is needed. Smoke detectors sense the presence of smoke before sounding an alarm. A dog that barks as a stranger approach the door also counts as an intelligent agent. Complex intelligent agents include the SpaceX Dragon spacecraft and self-driving cars. These intelligent agents take information from many different sensors, make real-time decisions, and adjust actions based on the information.
+
+
+
+Key features of an AI agent
+As explained above, while the key features of an AI agent are reasoning and acting, more features have evolved over time.
+i. Reasoning: This core cognitive process involves using logic and available information to draw conclusions, make inferences, and solve problems. AI agents with strong reasoning capabilities can analyze data, identify patterns, and make informed decisions based on evidence and context.
+ii. Acting: The ability to take action or perform tasks based on decisions, plans, or external input is crucial for AI agents to interact with their environment and achieve goals. This can include physical actions in the case of embodied AI, or digital actions like sending messages, updating data, or triggering other processes.
+iii. Observing: Gathering information about the environment or situation through perception or sensing is essential for AI agents to understand their context and make informed decisions. This can involve various forms of perception, such as computer vision, natural language processing, or sensor data analysis.
+iv. Planning: Developing a strategic plan to achieve goals is a key aspect of intelligent behavior. AI agents with planning capabilities can identify the necessary steps, evaluate potential actions, and choose the best course of action based on available information and desired outcomes. This often involves anticipating future states and considering potential obstacles.
+v. Collaborating: Working effectively with others, whether humans or other AI agents, to achieve a common goal is increasingly important in complex and dynamic environments. Collaboration requires communication, coordination, and the ability to understand and respect the perspectives of others.
+vi. Self-refining: The capacity for self-improvement and adaptation is a hallmark of advanced AI systems. AI agents with self-refining capabilities can learn from experience, adjust their behavior based on feedback, and continuously enhance their performance and capabilities over time. This can involve machine learning techniques, optimization algorithms, or other forms of self-modification.
+
+Agent Performance
+Agent performance refers to how well an intelligent agent performs its assigned task in a given environment. In AI, we do not judge agents based on how they think, but on how well they act. This idea leads to the concept of a: Rational Agent; An agent that chooses actions that maximize its expected performance measure.
+Performance Measure
+A performance measure is a criterion used to evaluate how successful an agent is. It answers the question: "How do we know the agent is doing well?"
+Examples of Performance Measures:
+AgentPerformance MeasureChess AINumber of games wonSelf-driving carSafety, speed, fuel efficiencySpam filterAccuracy of email classificationRobot vacuumCleanliness of roomA good performance measure should:
+i. Be objective
+ii. Be measurable
+iii. Reflect the true goal of the system
+PEAS Framework (Performance Evaluation Tool)
+To evaluate agent performance, we use the PEAS framework, which stands for:
+i. P - Performance Measure
+ii. E - Environment
+iii. A - Actuators
+iv. S - Sensors
+Example: Self-Driving Car
+ComponentDescriptionPerformanceSafety, speed, fuel efficiencyEnvironmentRoads, traffic, pedestriansActuatorsSteering, brakes, accelerationSensorsCameras, radar, GPSPEAS helps define how an agent should be evaluated.
+
+Examples of Agents
+Agent TypePerceptsActionsGoalsEnvironmentBin-Picking
+RobotImagesGrasp objects; Sort
+into binsParts in
+correct binsConveyor beltMedical
+DiagnosisPatient
+symptoms, testsTests and
+treatmentsHealthy
+patientPatient & hospitalExcite's Jango
+product finderWeb pagesnavigate web,
+gather relevant productsFind best price
+for a productInternetWebcrawler
+SoftbotWeb pagesFollow links,
+pattern matchingCollect info
+on a subjectInternetFinancial
+forecasting softwareFinancial dataGather data on
+companiesPick stocks to
+buy & sellStock market,
+company reportsAgent Faculties
+Agent faculties are the fundamental cognitive and operational capabilities that enable an intelligent agent to interact autonomously with its environment. These faculties are typically organized into five core pillars: Perception, Reasoning, Learning, Decision-making, and Action.
+1. Perception (Sensing and Data Ingestion)
+
+Perception is the "input" faculty. It allows an agent to receive raw signals from its environment and transform them into structured information.
+i. Multimodal Ingestion: Collecting data from various sources (visual, auditory, textual, or sensor- based).
+ii. Symbolic Grounding: Linking raw data to internal categories or concepts, allowing the agent to "understand" what it perceives.
+iii. Attention Control: Filtering vast amounts of environmental data to focus only on task-relevant information.
+2. Reasoning (Logical Processing and Synthesis)
+Reasoning is the "thinking" faculty. It involves processing information to derive new knowledge, make inferences, or create plans.
+i. Inference: Using logic or probabilistic models to conclude things that are not directly observed.
+ii. Mental Simulation: Predicting the potential outcomes of different scenarios before they occur.
+iii. Integration: Coordinating immediate reactive responses with slower, deliberative symbolic logic.
+3. Learning (Improving from Experience)
+Learning allows an agent to adapt and improve its performance over time without explicit reprograming.
+i. Reinforcement: Adjusting behavior based on "reward" or "penalty" signals from the environment.
+ii. Episodic Memory: Storing past experiences to recognize and respond better to similar future situations.
+iii. Continual Adaptation: The ability to acquire new skills and categories incrementally as the environment changes.
+4. Decision-Making (Selecting Actions and Strategies)
+Decision-making is the "choice" faculty. It evaluates possible paths and selects the one that best fulfills the agent's goals.
+i. Action Selection: Choosing the best behavior based on utility, rules, or priority.
+ii. Constraint Satisfaction: Ensuring choices stay within safety, ethical, or resource limits.
+iii. Contextual Modulation: Adjusting choices based on internal states (like "goals") or environmental shifts.
+5. Action (Execution and Interaction)
+Action is the "output" faculty. It is the physical or digital execution of the agent's decisions.
+i. Motor/Digital Control: Executing low-level commands (e.g., API calls, robotic movement) to affect the environment.
+ii. Closed-Loop Monitoring: Constantly checking the results of an action to see if it was successful or requires correction.
+iii. Social Interaction: Coordinating actions with humans or other agents through communication and shared intent.
+The Perception-Cognition-Action Loop
+In intelligent systems, these faculties do not work in isolation. They form a continuous loop:
+i. Perceive the current state.
+ii. Reason about the meaning and Learn from the context.
+iii. Decide on the optimal response.
+iv. Act to change the state, then start again by perceiving the new result.
+
+Agent Rationality
+One of the central concepts in Artificial Intelligence is Agent Rationality. AI systems are not judged by how they think, but by how they act. In AI, an agent is considered rational if it does the "right thing."
+But what does "right" mean? In AI, right means: Choosing the action that maximizes the expected performance measure, given the information available.
+What is a Rational Agent?
+A rational agent is an agent that selects actions that maximize its expected success based on:
+i. The performance measure
+ii. Its percept history
+iii. The knowledge it has
+iv. The actions available to it
+Formal Definition
+
+An agent is rational if for every possible percept sequence, it selects an action that is expected to maximize its performance measure.
+Key Elements of Agent Rationality
+a. Performance Measure This defines success. Examples:
+i. Chess agent ? number of games won
+ii. Self-driving car ? safety, speed, fuel efficiency
+iii. Spam filter ? classification accuracy
+A rational agent always tries to maximize this measure.
+b. Percept Sequence
+Agents make decisions based on what they have perceived so far. Example:
+i. A robot may change direction if it detects an obstacle.
+   ii. A medical AI may revise diagnosis after receiving new lab results. Rationality depends on available information, not hidden facts.
+c. Prior Knowledge
+Some agents are pre-programmed with knowledge about their environment. Example:
+i. A GPS system knows road maps.
+ii. A chess program knows legal moves.
+Better knowledge ? better rational decisions.
+d. Available Actions
+An agent can only choose among actions it is capable of performing. Example:
+i. A robot without arms cannot pick up objects.
+ii. A chatbot cannot physically intervene in a situation.
+
+Agent Environment
+An agent environment refers to the external setting or world in which an intelligent agent operates. The agent perceives this environment through sensors and acts upon it using actuators. The environment provides the context, states, and constraints that determine the agent's performance and the complexity of its tasks.
+Core Properties of Environments
+Environments are typically classified according to several key dimensions. Understanding these properties is crucial for selecting the appropriate agent architecture and algorithms.
+i. Fully Observable vs. Partially Observable
+a. Fully Observable: The agent's sensors can detect the complete state of the environment at each point
+in time (e.g., Image of a Chess board).
+b. Partially Observable: Parts of the state are missing or noisy, requiring the agent to maintain an internal "belief state" or memory to estimate hidden variables (e.g., A vacuum cleaner with no sensors to detect dirt in other rooms).
+ii. Deterministic vs. Stochastic
+a. Deterministic: The next state of the environment is completely determined by the current state and the agent's action (e.g., Chess).
+b. Stochastic: There is uncertainty; the same action in the same state might lead to different outcomes based on probability (e.g., Driving in traffic).
+iii. Episodic vs. Sequential
+a. Episodic: The agent's experience is divided into independent "episodes." Actions in one episode do not affect future episodes (e.g., Image classification).
+b. Sequential: Current actions have long-term consequences, affecting future states and decisions (e.g., Playing a game of Go).
+iv. Static vs. Dynamic
+a. Static: The environment does not change while the agent is "thinking" or deliberating (e.g., Crossword puzzles).
+b. Dynamic: The environment changes over time or while the agent is deciding on an action (e.g., A taxi driving).
+
+v. Discrete vs. Continuous
+a. Discrete: The environment has a finite or countable number of distinct states and actions (e.g., Chess).
+b. Continuous: States and actions are defined by real-valued variables (e.g., Steering a car or controlling a robot arm).
+vi. Single-Agent vs. Multi-Agent
+a. Single-Agent: Only one agent is making decisions in the environment (e.g., A solitary robot in a warehouse).
+b. Multi-Agent: Multiple agents interact, which may be cooperative (working together) or competitive (playing against each other).
+
+Agent Architectures
+Agent Architecture refers to the underlying framework or structure that defines how an agent is built and how it processes information to produce actions.
+In simple terms: Agent = Architecture + Agent Program
+a. Architecture ? The hardware or platform
+b. Agent Program ? The software running on it
+
+Components of Agent Architecture
+An agent architecture typically includes:
+i. Sensors
+ii. Internal Processing Unit
+iii. Knowledge Base
+iv. Decision-Making Mechanism
+v. Actuators
+Basic Agent Structure: Environment ? Sensors ? Processing ? Actuators ? Environment
+Types of Agent Architectures
+AI systems are classified into different architectures depending on how they process information.
+i. Simple Reflex Architecture Description:
+a. Acts only on the current percept.
+b. Uses condition-action rules (IF-THEN rules).
+c. Does not store past information.
+Structure: Perception ? Rule Matching ? Action
+Example:
+a. Thermostat
+b. Basic vacuum cleaner agent
+Advantages:
+a. Simple
+b. Fast response
+Disadvantages:
+a. Fails in partially observable environments
+b. No memory
+ii. Model-Based Architecture Description:
+
+a. Maintains an internal state (model of the world).
+b. Keeps track of past percepts.
+Structure: Perception ? Update Internal State ? Decision ? Action
+Example:	Robot navigating a room using map memory.
+Advantage:	Works in partially observable environments.
+iii. Goal-Based Architecture Description:
+a. Has explicit goals.
+b. Chooses actions that lead to goal achievement.
+Structure:	Perception ? State Update ? Goal Evaluation ? Action Selection
+Example:	GPS navigation system finding shortest route.
+Advantage:	Flexible decision-making.
+iv. Utility-Based Architecture Description:
+a. Uses a utility function to measure desirability.
+b. Selects action that maximizes expected utility.
+Structure:	Perception ? Utility Evaluation ? Best Action ? Execution
+Example:
+a. Stock trading AI maximizing profit.
+b. Autonomous car balancing safety and speed.
+Advantage:	Handles trade-offs between conflicting goals.
+v. Learning Agent Architecture Description:
+a. Improves performance through experience.
+b. Adapts over time.
+Components:
+a. Performance Element (selects actions)
+b. Learning Element (improves system)
+c. Critic (evaluates performance)
+d. Problem Generator (suggests exploratory actions)
+Example:
+a. Reinforcement learning systems
+b. AlphaGo
+Advantage:	Most advanced and adaptive architecture.
+Layered Agent Architecture
+Some systems use multiple layers:
+a. Reactive Layer - Immediate responses
+b. Deliberative Layer - Planning and reasoning
+   c. Learning Layer - Improves performance Used in robotics and autonomous systems. Comparison of Architectures
+ArchitectureMemoryGoal-OrientedLearningComplexitySimple ReflexNoNoNoLowModel-BasedYesNoNoMedium
+Goal-BasedYesYesNoMediumUtility-BasedYesYesNoHighLearning AgentYesYesYesVery HighFactors Influencing Choice of Architecture
+a. Nature of environment (static/dynamic)
+b. Observability (full/partial)
+c. Deterministic vs stochastic
+d. Available computational resources
+e. Task complexity
+Real-World Applications
+a. Robotics
+b. Autonomous vehicles
+c. Smart home systems
+d. Financial trading systems
+e. Military defense systems
+f. Healthcare diagnosis systems
+Challenges in Agent Architecture Design
+a. Scalability issues
+b. Computational cost
+c. Uncertainty handling
+d. Ethical considerations
+e. Real-time constraints
+
+SEARCH
+Artificial Intelligence is the study of building agents that act rationally. Most of the time, these agents perform some kind of search algorithm in the background in order to achieve their tasks.
+In Artificial Intelligence (AI), a search strategy is the method or procedure used to decide which paths or states to explore in order to reach a solution to a problem.
+Since many AI problems (like puzzle solving, pathfinding, game playing, or planning) can be represented as a search through a problem space, a strategy helps guide the search efficiently.
+Key points:
+i. A search strategy defines the order in which nodes (possible states or solutions) are expanded.
+ii. It determines which node is chosen first for exploration from the search tree or graph.
+ iii. The goal is usually to find a solution that is correct, efficient, and optimal. A search problem consists of:
+i. A State Space. Set of all possible states where you can be.
+ii. A Start State. The state from where the search begins.
+iii. A Goal State. is the desired final condition or outcome that the search algorithm is
+trying to reach. It's the state where the problem is considered solved.
+The Solution to a search problem is a sequence of actions, called the plan that transforms the start state to the goal state. This plan is achieved through search algorithms.
+
+Problem Solving by Search Components of a search problem A problem in AI is defined by:
+a. Initial State - Where the agent starts
+
+b. Actions (Operators) - Possible moves
+c. Transition Model - Result of applying an action
+d. Goal Test - Determines if goal is achieved
+e. Path Cost - Cost of reaching the goal
+State Space
+The state space is the set of all possible states reachable from the initial state. Search algorithms explore this state space using:
+a. Trees
+b. Graphs
+Example: 8-Puzzle Problem
+a. Initial state: Scrambled tiles
+b. Goal state: Ordered tiles
+c. Actions: Move blank tile up/down/left/right
+d. Cost: Number of moves
+
+Types of AI Search Techniques and Strategies
+AI search techniques are classified into two main categories:
+a. Uninformed (Blind) Search
+b. Informed (Heuristic) Search
+
+
+Uninformed Search Algorithms:
+The search algorithms in this section have no additional information on the goal node other than the one provided in the problem definition. The plans to reach the goal state from the start state differ only by the order and/or length of actions. Uninformed search is also called Blind search. These algorithms can only generate the successors and differentiate between the goal state and non-goal state.
+  i. Depth First Search	ii. Breadth First Search	iii. Uniform Cost Search Each of these algorithms will have:
+i. A problem graph, containing the start node S and the goal node G.
+ii. A strategy, describing the manner in which the graph will be traversed to get to G.
+iii. A fringe, which is a data structure used to store all the possible states (nodes) that you can go from the current states.
+iv. A tree, that results while traversing to the goal node.
+v. A solution plan, the sequence of nodes from S to G.
+Depth First Search:
+Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking. It uses last in- first-
+
+out strategy and hence it is implemented using a stack.
+Example:
+Which solution would DFS find to move from node S to node G if run on the graph below?
+
+
+Solution. The equivalent search tree for the above graph is as follows. As DFS traverses the tree "deepest node first", it would always pick the deeper branch until it reaches the solution (or it runs out of nodes, and goes to the next branch). The traversal is shown in blue arrows.
+
+Path:   S -> A -> B -> C -> G
+
+Time complexity: Equivalent to the number of nodes traversed in DFS. T(b) = 1 +b + b2 + b3 + ...
++ bd = O(bd)
+Space complexity: Equivalent to how large can the fringe get. S(b) = O(b x d)
+Completeness: DFS is complete if the search tree is finite, meaning for a given finite search tree, DFS will come up with a solution if it exists.
+Optimality: DFS is not optimal, meaning the number of steps in reaching the solution, or the cost spent in reaching it is high.
+Breadth First Search:
+Breadth-first search (BFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key'), and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level. It is implemented using a queue.
+Example:
+Question. Which solution would BFS find to move from node S to node G if run on the graph below?
+
+Solution. The equivalent search tree for the above graph is as follows. As BFS traverses the tree "shallowest node first", it would always pick the shallower branch until it reaches the solution (or it runs out of nodes, and goes to the next branch). The traversal is shown in blue arrows.
+
+
+Path: S -> D -> G
+Time complexity: Equivalent to the number of nodes traversed in BFS until the shallowest solution. T(b) = 1 + b + b2 + b3 + ... + bs = O(bs)
+Space complexity: Equivalent to how large can the fringe get. S(b) = O(bs)
+Completeness: BFS is complete, meaning for a given search tree, BFS will come up with a solution if it exists.
+Optimality: BFS is optimal as long as the costs of all edges are equal.
+Uniform Cost Search:
+UCS is different from BFS and DFS because here the costs come into play. In other words, traversing via different edges might not have the same cost. The goal is to find a path where the cumulative sum of costs is the least.
+Cost of a node is defined as:
+cost(node) = cumulative cost of all nodes from root cost(root) = 0
+Example:
+Question. Which solution would UCS find to move from node S to node G if run on the graph below?
+Solution. The equivalent search tree for the above graph is as follows. The cost of each node is the cumulative cost of reaching that node from the root. Based on the UCS strategy, the path with the least cumulative cost is chosen. Note that due to the many options in the fringe, the algorithm explores most of them so long as their cost is low, and discards them when a lower-cost path is found; these discarded traversals are not shown below. The actual traversal is shown in blue.
+
+
+Path: S -> A -> B -> G
+Cost: 5
+Advantages:
+i. UCS is complete only if states are finite and there should be no loop with zero weight.
+ii. UCS is optimal only if there is no negative cost.
+Disadvantages:
+i. Explores options in every "direction".
+ii. No information on goal location.
+Informed Search Algorithms:
+Here, the algorithms have information on the goal state, which helps in more efficient searching. This information is obtained by something called a heuristic. In an informed search, a heuristic is a function that estimates how close a state is to the goal state. For example - Manhattan distance, Euclidean distance, etc. (Lesser the distance, closer the goal.) Different heuristics are used in different informed algorithms discussed below.
+1. Greedy Search
+2. A* Tree Search
+3. A* Graph Search
+Greedy Search:
+In greedy search, we expand the node closest to the goal node. The "closeness" is estimated by a heuristic h(x).
+Heuristic: A heuristic h is defined as:
+h(x) = Estimate of distance of node x from the goal node. Lower the value of h(x), closer is the node from the goal.
+Strategy: Expand the node closest to the goal state, i.e. expand the node with a lower h value.
+Example:
+Question. Find the path from S to G using greedy search. The heuristic values h of each node below the name of the node.
+Solution. Starting from S, we can traverse to A(h=9) or D(h=5). We choose D, as it has the lower heuristic cost. Now from D, we can move to B(h=4) or E(h=3). We choose E with a lower heuristic cost. Finally, from E, we go to G(h=0). This entire traversal is shown in the search tree below, in blue.
+
+
+Path:	S -> D -> E -> G
+Advantage: Works well with informed search problems, with fewer steps to reach a goal.
+Disadvantage: Can turn into unguided DFS in the worst case.
+A* Tree Search
+A* Tree Search, or simply known as A* Search, combines the strengths of uniform-cost search and greedy search. In this search, the heuristic is the summation of the cost in UCS, denoted by g(x), and the cost in the greedy search, denoted by h(x). The summed cost is denoted by f(x). Heuristic: The following points should be noted with heuristics in A* search. f(x) = g(x) + h(x)
+i. Here, h(x) is called the forward cost and is an estimate of the distance of the current node from the goal node.
+ii. And, g(x) is called the backward cost and is the cumulative cost of a node from the root node.
+iii. A* search is optimal only when for all nodes, the forward cost for a node h(x) underestimates the actual cost h*(x) to reach the goal. This property of A* heuristic is called admissibility.
+Admissibility:	0 = h(x) = h*(x) where:
+i. h(x) = heuristic estimate
+ii. h*(x) = true cost from node x to the goal
+This ensures that A* doesn't "mislead" the search by thinking a path is cheaper than it really is.
+Strategy: Choose the node with the lowest f(x) value.
+Example:
+Question. Find the path to reach from S to G using A* search.
+Solution. Starting from S, the algorithm computes g(x) + h(x) for all nodes in the fringe at each step, choosing the node with the lowest sum. The entire work is shown in the table below.
+
+Note that in the fourth set of iterations, we get two paths with equal summed cost f(x), so we expand them both in the next set. The path with a lower cost on further expansion is the chosen path.
+Pathh(x)g(x)f(x)S707S >?  A9312S >?  D527S >?  D >?  B42 + 1 = 37S >?  D >?  E32 + 4 = 69S >?  D >?  B >?  C23 + 2 = 57S >?  D >?  B >?  E33 + 1 = 47S >?  D >?  B >?  C >?  G05 + 4 = 99S >?  D >?  B >?  E >?  G04 + 3 = 77
+Path:	S
+Cost:	7
+
+D	B	E	G
+
+A* Graph Search
+A* tree search works well, except that it takes time re-exploring the branches it has already explored. In other words, if the same node has expanded twice in different branches of the search tree, A* search might explore both of those branches, thus wasting time. Graph Search removes this limitation by adding this rule: do not expand the same node more than once.
+Heuristic. Graph search is optimal only when the forward cost between two successive nodes A and B, given by h(A) - h (B), is less than or equal to the backward cost between those two nodes g(A
+?  B). This property of the graph search heuristic is called consistency.
+Consistency:	h(A) - h(B) = g(A ? B)
+Example:
+Question. Use graph searches to find paths from S to G in the following graph.
+
+We solve this question pretty much the same way we solved last question, but in this case, we keep a track of nodes explored so that we don't re-explore them.
+
+
+Path:	S -> D -> B -> E -> G
+Cost:	7
+* Tree Search = expands like a free-growing tree, can revisit nodes.
+* Graph Search = avoids revisits with a closed list, making it more efficient and optimal.
+
+INTRODUCTION TO THE TYPES OF PROBLEMS AND TECHNIQUES IN AI
+Fundamental Problem Categories in AI
+AI problems can be organized into several recurring categories, each characterized by distinct computational challenges and solution strategies. This taxonomy provides a conceptual framework for understanding the field and guides the selection of appropriate techniques.
+i. Search Problems
+Search problems involve finding a solution often a sequence of actions or a configuration within a large, discrete space of possibilities. The challenge lies in efficiently exploring this space without exhaustively examining every option.
+Characteristics:
+a. State space representation: Problems are modeled as states (configurations) and operators (actions that transform one state into another)
+b. Goal specification: A clear criterion defines when a solution is found
+c. Combinatorial explosion: The number of possible states grows exponentially with problem size, making naive exhaustive search infeasible
+Canonical examples:
+a. Pathfinding: Finding the shortest route between two locations in a map or graph
+b. Puzzle solving: Classic problems like the 8-puzzle, Rubik's cube, or Sudoku
+c. Game playing: Searching through possible move sequences in games like chess or Go
+d. Constraint satisfaction: Assigning values to variables subject to constraints (e.g., scheduling, resource allocation)
+ii. Optimization Problems
+Optimization problems seek to find the best solution according to some objective function, often in continuous or very large discrete spaces. Unlike pure search problems, optimization explicitly quantifies solution quality and aims to maximize or minimize this measure.
+Characteristics:
+a. Objective function: A mathematical function that assigns a numerical score to each candidate solution
+
+b. Constraints: Feasible solutions must satisfy certain conditions
+c. Local vs. global optima: Many AI optimization problems involve non-convex landscapes with multiple local optima, making it difficult to find the global optimum
+Canonical examples:
+a. Parameter tuning: Finding optimal weights in a neural network or coefficients in a regression model
+b. Resource allocation: Distributing limited resources to maximize utility or minimize cost
+c. Scheduling: Arranging tasks or events to optimize time, cost, or other criteria
+d. Design optimization: Configuring systems (e.g., engineering designs, network topologies) to achieve desired performance
+Optimization is pervasive in AI, appearing in learning algorithms (minimizing prediction error), planning (maximizing expected reward), and many application domains. Both classical numerical methods and heuristic metaheuristics play important roles
+iii. Reasoning and Knowledge Representation
+Reasoning problems involve drawing inferences from known facts and rules. This category emphasizes the representation of knowledge in structured, often symbolic, forms and the application of logical or probabilistic inference to derive new conclusions.
+Characteristics:
+a. Knowledge bases: Collections of facts, rules, and relationships encoded in formal languages
+b. Inference mechanisms: Procedures for deriving new knowledge from existing knowledge (e.g., deduction, abduction, induction)
+c. Expressiveness vs. tractability trade-off: More expressive representations (e.g., first-order logic) enable richer reasoning but may be computationally expensive
+Canonical examples:
+a. Theorem proving: Automatically verifying mathematical proofs or logical arguments
+b. Expert systems: Encoding domain expertise as rules and using inference engines to provide advice or diagnoses
+c. Ontology reasoning: Inferring relationships and classifications in structured knowledge graphs
+d. Commonsense reasoning: Drawing everyday inferences that humans perform effortlessly but are challenging for machines
+Knowledge representation and reasoning were central to early AI and remain important in domains requiring explainability, formal verification, or integration of symbolic domain knowledge with data- driven methods.
+
+iv. Planning and Decision-Making
+Planning problems involve generating sequences of actions to achieve specified goals, often under uncertainty and resource constraints. Decision-making extends planning to scenarios where the agent must choose actions based on incomplete information or probabilistic outcomes.
+Characteristics:
+a. Action models: Formal descriptions of what actions are available and their effects on the world state
+b. Goal-directed behavior: Plans are constructed to transition from an initial state to a goal state
+c. Temporal reasoning: Actions unfold over time, and their effects may depend on timing and ordering
+d. Uncertainty handling: Real-world planning often requires reasoning about uncertain outcomes and partial observability
+Canonical examples:
+a. Robot motion planning: Determining collision-free paths and action sequences for robots
+b. Automated scheduling: Creating timetables for manufacturing, logistics, or project management
+
+c. Strategic game playing: Planning multi-step strategies in complex games
+d. Autonomous systems: Enabling self-driving cars, drones, or spacecraft to plan and execute missions
+Planning bridges search and reasoning, often employing heuristic search over action spaces while incorporating domain knowledge and constraints. Modern planning also integrates learning to improve plan quality over time.
+v. Learning and Statistical Inference
+Learning problems involve acquiring knowledge or improving performance through experience. Rather than being explicitly programmed, learning systems extract patterns, regularities, and predictive models from data.
+Characteristics:
+a. Data-driven: Learning algorithms require training data	(examples,	observations, or interactions)
+b. Generalization: The goal is to perform well on new, unseen data, not just memorize training examples
+c. Inductive bias: Learning algorithms embody assumptions about the structure of the problem that guide generalization
+Three main paradigms:
+Supervised learning: Learning a mapping from inputs to outputs based on labeled training examples. The system is provided with correct input-output pairs and learns to predict outputs for new inputs.
+a. Examples: Classification (spam detection, image recognition), regression (price prediction, demand forecasting)
+b. Techniques: Decision trees, support vector machines, neural networks
+Unsupervised learning: Discovering structure or patterns in data without explicit labels. The system identifies regularities, groupings, or representations in unlabeled data.
+a. Examples: Clustering (customer segmentation, document organization), dimensionality reduction, anomaly detection
+   b. Techniques: K-means clustering, principal component analysis, autoencoders Reinforcement learning: Learning to make sequential decisions by interacting with an environment and receiving rewards or penalties. The agent learns policies that maximize cumulative reward over time.
+a. Examples: Game playing (Go, chess, video games), robotics control, resource management
+b. Techniques: Q-learning, policy gradient methods, deep reinforcement learning
+Learning has become the dominant paradigm in modern AI, driven by the availability of large datasets, powerful computational resources, and algorithmic advances in deep learning.
+
+Core AI Techniques and Methods
+Having surveyed the main problem categories, we now examine the principal techniques and methods that AI researchers and practitioners employ to solve these problems. Each technique has characteristic strengths and is particularly well-suited to certain problem types.
+i. Heuristic Search Methods
+Heuristic search methods explore state spaces intelligently by using domain-specific knowledge (heuristics) to guide the search toward promising regions. These methods are fundamental to solving search and planning problems efficiently.
+Key concepts:
+a. Heuristic function: An estimate of the cost or distance from a given state to the goal. Good heuristics dramatically reduce search effort
+b. Informed vs. uninformed search: Uninformed methods (breadth-first, depth-first) explore systematically without domain knowledge; informed methods (A*, greedy best-first) use heuristics to prioritize exploration
+
+c. Admissibility and consistency: Properties of heuristics that guarantee optimal solutions (for algorithms like A*)
+Representative algorithms:
+a. A search:* Combines actual cost from the start with heuristic estimated cost to the goal, guaranteeing optimal solutions when the heuristic is admissible
+b. Hill climbing and local search: Iteratively move to neighboring states that improve the objective, useful for optimization problems
+c. Simulated annealing and genetic algorithms: Metaheuristics that escape local optima through randomization or population-based search
+Applications: Heuristic search is widely used in pathfinding (GPS navigation, game AI), puzzle solving, scheduling, and planning. The satisfiability (SAT) problem-determining whether a logical formula can be satisfied-has seen dramatic algorithmic improvements through clever search heuristics, enabling industrial-scale applications.
+ii. Logic-Based Systems and Symbolic Reasoning
+Logic-based techniques represent knowledge using formal symbolic languages (propositional logic, first-order logic, production rules) and perform reasoning through logical inference. These methods are central to knowledge representation, expert systems, and formal verification.
+Key concepts:
+a. Propositional and first-order logic: Formal languages for expressing facts and rules with well- defined semantics and inference procedures
+b. Production rules: "If-then" rules that encode domain expertise and drive inference engines in expert systems
+c. Semantic networks and frames: Structured representations that organize knowledge hierarchically and support inheritance and classification
+Representative techniques:
+a. Resolution and theorem proving: Automated methods for proving logical consequences
+b. Forward and backward chaining: Inference strategies used in rule-based expert systems
+   c. Description logics: Formal languages for ontology reasoning and knowledge graphs Applications: Logic-based systems excel in domains requiring explainability, formal correctness, or integration of explicit domain knowledge. Examples include medical diagnosis systems, legal reasoning, configuration systems, and semantic web technologies.
+Limitations: Symbolic reasoning can struggle with uncertainty, noisy data, and the brittleness of hand-crafted knowledge bases. The "knowledge acquisition bottleneck"-the difficulty of encoding expert knowledge-has limited the scalability of purely symbolic approaches.
+iii. Probabilistic Models and Bayesian Methods
+Probabilistic models represent uncertainty explicitly using probability distributions and perform inference using the rules of probability theory. These methods are essential for reasoning under uncertainty and integrating noisy or incomplete information.
+Key concepts:
+a. Bayesian inference: Updating beliefs about hypotheses in light of observed evidence using Bayes' theorem
+b. Graphical	models: Bayesian	networks	and	Markov	networks	represent	conditional independence structure, enabling efficient inference in complex domains
+c. Hidden variables: Many probabilistic models include unobserved variables that must be inferred from data
+Representative techniques:
+a. Bayesian networks: Directed graphical models that encode probabilistic dependencies among variables
+b. Hidden Markov Models (HMMs): Models for sequential data with hidden states, widely used in speech recognition and bioinformatics
+
+c. Markov Decision Processes (MDPs): Frameworks for sequential decision-making under uncertainty, foundational to reinforcement learning
+d. Probabilistic graphical models: General frameworks encompassing Bayesian networks, Markov random fields, and factor graphs
+Applications: Probabilistic methods are used in medical diagnosis (reasoning about diseases given symptoms), robotics (sensor fusion and localization), natural language processing (language models, machine translation), and decision support systems.
+
+3.4 Neural Networks and Deep Learning
+Neural networks are computational models inspired by biological neural systems, consisting of interconnected units (neurons) that process information through weighted connections. Deep learning refers to neural networks with many layers, which have achieved remarkable success in perception, language, and game playing.
+Key concepts:
+a. Artificial neurons: Units that compute weighted sums of inputs and apply nonlinear activation functions
+b. Layers and architectures: Networks are organized into layers (input, hidden, output); architecture design is crucial for performance
+c. Backpropagation: The algorithm for training neural networks by computing gradients of the loss function with respect to weights
+d. Representation	learning: Deep	networks	automatically	learn	hierarchical	feature representations from raw data
+Representative architectures:
+a. Feedforward networks (MLPs): Basic architecture for classification and regression tasks
+b. Convolutional Neural Networks (CNNs): Specialized for image and spatial data, using convolutional layers to capture local patterns
+c. Recurrent Neural Networks (RNNs) and LSTMs: Designed for sequential data, maintaining hidden state across time steps
+d. Transformers: Attention-based architectures that have revolutionized natural language processing and are increasingly used in other domains
+Training paradigms:
+a. Supervised learning: Training on labeled data to minimize prediction error
+b. Unsupervised learning: Learning representations or generative models from unlabeled data (autoencoders, GANs)
+c. Deep reinforcement learning: Combining deep neural networks with reinforcement learning for complex decision-making
+Applications: Deep learning has achieved state-of-the-art results in computer vision (image classification, object detection), natural language processing (machine translation, question answering, large language models like ChatGPT), speech recognition, game playing (Go, chess, video games), and many other domains.
+Challenges: Despite their success, neural networks face challenges including the need for large labeled datasets, high computational costs, lack of interpretability, vulnerability to adversarial examples, and difficulty incorporating symbolic knowledge or causal reasoning.
+Problem-Solving methods.
+Major structures used in AI programmes
+
+KNOWLEDGE REPRESENTATION
+Humans are best at understanding, reasoning, and interpreting knowledge. Human knows things, which is knowledge and as per their knowledge they perform various actions in the real world. But how machines do all these things comes under knowledge representation and reasoning. The Purpose
+
+is to encode real-world information so AI systems can reason and make decisions. Hence, we can describe Knowledge representation as following:
+i. Knowledge representation and reasoning (KRR) is the part of Artificial intelligence which concerned with AI agents thinking and how thinking contributes to intelligent behaviour of agents.
+ii. It is responsible for representing information about the real world so that a computer can understand and can utilize this knowledge to solve the complex real-world problems such as diagnosis a medical condition or communicating with humans in natural language.
+iii. Knowledge representation is not just storing data into some database, but it also enables an intelligent machine to learn from that knowledge and experiences so that it can behave intelligently like a human.
+Following are the kind of knowledge which needs to be represented in AI systems:
+i. Object: All the facts about objects in our world domain. E.g., Guitars contains strings, trumpets are brass instruments.
+ii. Events: Events are the actions which occur in our world.
+iii. Performance: It describe behavior which involves knowledge about how to do things.
+iv. Meta-knowledge: It is knowledge about what we know.
+v. Facts: Facts are the truths about the real world and what we represent.
+vi. Knowledge-Base: The central component of the knowledge-based agents is the knowledge base. It is represented as KB. The Knowledgebase is a group of the Sentences (Here, sentences are used as a technical term and not identical with the English language).
+Knowledge: Knowledge is awareness or familiarity gained by experiences of facts, data, and situations. Following are the types of knowledge in artificial intelligence:
+i. Declarative Knowledge:
+Declarative knowledge is to know about something. Facts and information about the world. It includes concepts, facts, and objects. It is also called descriptive knowledge and expressed in declarative sentences. E.g. Paris is the capital of France. Water boils at 100°C. Use in AI: Stored in databases or knowledge bases (e.g., knowledge graphs like Google's).
+ii. Procedural Knowledge
+It is also known as imperative knowledge. Procedural knowledge is a type of knowledge which is responsible for knowing how to do something. It can be directly applied to any task. It includes rules, strategies, procedures, agenda, etc. Procedural knowledge depends on the task on which it can be applied. E.g. how to drive a car, how to solve mathematical equation. Use in AI: Encoded as algorithms or rule-based systems.
+iii. Meta-knowledge:
+Knowledge about the other types of knowledge is called Meta-knowledge. E.g. Knowing that a certain model works better for image classification than for text. Use in AI: Helps AI choose appropriate reasoning or learning strategies.
+iv. Heuristic knowledge:
+Heuristic knowledge is representing knowledge of some experts in a filed or subject. Heuristic knowledge is rules of thumb based on previous experiences, awareness of approaches, and which are good to work but not guaranteed. E.g. If it's cloudy, it might rain. If a person avoids eye contact, they may be nervous. Use in AI: Expert systems use heuristics to make decisions in uncertain situations.
+v. Structural knowledge:
+
+Structural knowledge is basic knowledge to problem-solving. It describes relationships between various concepts such as kind of, part of, and grouping of something. It describes the relationship that exists between concepts or objects. E.g. A dog is a type of animal. An engine is a part of a car. Use in AI: Found in ontologies and semantic networks.
+
+The relation between knowledge and intelligence:
+Knowledge of real-worlds plays a vital role in intelligence and same for creating artificial intelligence. Knowledge plays an important role in demonstrating intelligent behavior in AI agents. An agent is only able to accurately act on some input when he has some knowledge or experience about that input. AI knowledge cycle:
+An AI system comprises the following key components that enable it to exhibit intelligent behaviour:
+1. Perception
+2. Learning
+3. Knowledge Representation and Reasoning
+4. Planning
+5. Execution
+
+Approaches to knowledge representation:
+There are mainly four approaches to knowledge representation, which are given below:
+i. Simple relational knowledge
+ii. Inheritable knowledge
+iii. Inferential knowledge
+iv. Procedural knowledge
+i. Simple Relational Knowledge
+This approach represents knowledge as facts stored in tables or databases, using a structure of objects and their attributes. It is the simplest form of knowledge representation and is easy to understand and query.
+Example:
+StudentCourseGradeJohnMathAThis structure shows relationships between entities but does not handle complex reasoning.
+ii. Inheritable Knowledge
+Also known as hierarchical or frame-based representation, this approach organizes knowledge in a hierarchy	where	lower-level	concepts	inherit	properties	from	higher-level	ones.
+
+i. Bird (inherits from Animal) ? has feathers
+ii. Parrot (inherits from Bird) ? can talk
+This allows sharing and reusing common properties across related concepts.
+iii. Inferential Knowledge
+This involves representing knowledge in the form of logical rules or if-then statements that allow the system to draw conclusions (make inferences). Used in expert systems and logic-based AI. E.g.
+i. If it rains, then the ground becomes wet.
+ii. It is raining ? Therefore, the ground is wet.
+iv. Procedural Knowledge
+Knowledge is represented as a sequence of steps or procedures to perform tasks. Unlike
+declarative knowledge, it focuses on "how to do" something.
+Example:
+An algorithm for sorting a list or diagnosing a disease based on symptoms.
+It's often encoded in the form of functions, scripts, or rules in rule-based systems.
+
+KR and Reasoning Challenges
+i. Complexity and Representation: Capturing the intricacies of real-world knowledge in a structured, machine-understandable format is difficult.
+ii. Balancing Efficiency and Expressiveness: Systems must be detailed enough to represent complex domains but efficient enough for real-time reasoning and inference.
+iii. Uncertainty and Incompleteness: Handling information that is vague, ambiguous, or missing, such as the "penguin exception" where a general rule (birds fly) doesn't apply to a specific case (penguins don't).
+iv. Scalability: As the volume of knowledge increases, AI systems struggle with the processing power and storage needed for efficient retrieval.
+v. Knowledge Acquisition: Gathering and updating knowledge in a dynamic environment can be slow and challenging.
+vi. Maintaining Consistency: Ensuring that updated facts and rules do not introduce contradictions into the knowledge base.
+
+Types of Knowledge Representation Languages
+Knowledge representation languages are broadly grouped into:
+1. Logical Languages
+2. Rule-Based Languages
+3. Frame-Based Languages
+4. Semantic Network Languages
+5. Ontology Languages
+6. Probabilistic Languages
+
+Knowledge representation techniques
+Knowledge representation (KR) is a fundamental area of artificial intelligence concerned with how to formally encode information about the world in a form that computer systems can utilize to solve complex tasks. The choice of representation formalism profoundly affects what can be expressed, how efficiently reasoning can be performed, and how well the system can handle real-world phenomena such as incompleteness, exceptions, and uncertainty.
+Three major paradigms in knowledge representation:
+i. Predicate Logic (First-Order Logic): provides a formal, structured language for representing objects, relations, and general rules with precise semantics and sound inference mechanisms.
+
+ii. Non-monotonic Logic: extends classical logic to model defeasible reasoning where conclusions can be withdrawn when new information contradicts earlier assumptions, capturing commonsense reasoning patterns.
+iii. Probabilistic Reasoning: represents and reasons about uncertainty by assigning numerical probabilities to propositions, enabling principled belief updating through Bayesian methods.
+Each technique addresses different challenges in knowledge representation and offers distinct advantages and trade-offs. Understanding these approaches and their interrelationships is essential for designing intelligent systems that can reason effectively in diverse domains.
+
+Semantic Network
+Semantic network is a form of knowledge structuring according to a network of concepts and the relationships among them. Think of it as a map, where one idea is connected to other ideas to signify how they're related, for example, "dog" and "animal."
+Semantic networks in AI enable programs to understand and draw conclusions by examining these connections. For example, if a program understands that "dogs are animals" and "animals need food," it can deduce that "dogs need food" as well.
+For example; let us consider a university system in which there are various entities connected to each other. Let us represent these relations through nodes and arcs.
+i. John is a student.
+ii. John pursues computer science.
+iii. Computer science is a department.
+iv. All departments belong to the university.
+v. John owns a laptop.
+vi. John owns a Dell laptop.
+This above network allows AI systems to draw new conclusions. For example, Since John is studying Computer Science, we can deduce that he is connected to the institution via his department. Since, John has a Dell laptop, its fair to assume he uses it for his academic work.
+Advantages of Semantic Network Representation
+The key advantages of semantic network representation are as follows -
+i. Using natural representations of real-world associations makes it easier to store data and retrieve information.
+ii. It allows for inheritance, meaning AI can deduce characteristics (for instance, if all birds can fly, then an eagle is capable of flying).
+iii. It's easy to visualize and can be expanded by introducing new concepts and connections.
+iv. Supports reasoning by following connections between related concepts.
+Disadvantages of Semantic Network Representation
+The following are the major disadvantages associated with semantic network representation -
+i. As more concepts and relationships are added, the network grows and becomes increasingly difficult to manage.
+ii. There is no uniform method for representing relationships, leading to inconsistencies in how knowledge is illustrated.
+iii. Finding relationships within a large network can require significant time and computational resources.
+iv. Semantic networks have difficulty representing probabilistic or uncertain knowledge when compared to probabilistic models.
+Frame Representation
+Frame representation offers a method to organize details about objects, events, or concepts. This idea proposes that human memory uses "frames" or "templates" to represent general situations, objects, or events. Each frame has slots (features) and fillers (instances) that describe the traits of what it represents.
+
+For example; let us consider the definition of "car." The frame for a car might have fields for color, model, make, and year. These fields could be filled with instances such as red, Model X, Tesla, and 2023.
+Key Components of Frame Representation
+The following are the main components of frame representation that help in the successful structuring and organization of knowledge.
+i. Frames are structures that hold data representing a specific entity, concept, or situation. They serve as templates for organizing relevant information.
+ii. Slots are the properties and attributes of a frame. They describe the characteristics of the entity being represented. For example, in a "person" frame, the slots might include name, age, gender, and occupation.
+iii. Fillers are the actual values assigned to these slots. In the case of the "person" frame, John Doe would fill the name slot.
+iv. Frames can be merged to illustrate relationships between entities. For instance, a "car" frame might be linked with an "owner" frame to indicate ownership.
+v. Some slots may have default values that are assumed unless explicitly stated differently. For example, the default value for the color slot in a "car" frame could be black.
+Advantages of Frame representation
+Frame representation offers several benefits, which are listed below -
+i. It facilitates programming by organizing relevant information in a comprehensible and organized form.
+ii. It is flexible and simple to extend, so new features and associations can be introduced with minimal effort.
+iii. The visualization is straightforward, and people can easily comprehend how the information is stored and retrievable.
+iv. This technique is suitable for many AI applications, including natural language processing and machine vision.
+Disadvantages of Frame representation
+Despite its usefulness, frame representation has some drawbacks, as mentioned below -
+i. Finding the relevant information over many frames can be challenging and time-consuming.
+ii. Developing rules to accurately infer new knowledge from frames is difficult, especially for big systems.
+iii. Representing highly complex or dynamic knowledge with frames can be difficult because it may necessitate multiple slots and connections.
+iv. Frame-based systems are effective for structured knowledge, but they may not handle ambiguous or abstract concepts adequately.
+
+NATURAL LANGUAGE PROCESSING
+Natural Language Processing (NLP) is a fascinating and vital field within Artificial Intelligence that focuses on the interaction between computers and humans in natural language. It enables machines to understand, interpret, and generate human languages, which is crucial for applications like chatbots, virtual assistants, and automated translation services.
+To understand NLP, let's start with the basics. NLP involves several key processes:
+1. Tokenization: This is the process of breaking down text into smaller units called tokens, which can be words, phrases, or even characters. Tokenization is the first step in preparing text data for further processing.
+2. Stemming and Lemmatization: These techniques reduce words to their root or base form. For example, "running" and "runner" can be reduced to "run". This helps in normalizing text data.
+3. Part-of-Speech Tagging: This involves identifying the part of speech of each word in a sentence, such as noun, verb, adjective, etc. This is crucial for understanding the grammatical structure of sentences.
+
+4. Named Entity Recognition (NER): NER identifies and classifies named entities in text into predefined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
+5. Sentiment Analysis: This process determines the emotional tone behind a series of words. It is used to gauge the sentiment of a piece of text, whether it's positive, negative, or neutral.
+6. Machine Translation: This involves translating text from one language to another using computational models.
+In the context of our previous discussions on neural networks, it's important to note that many NLP tasks leverage neural network architectures, especially Recurrent Neural Networks (RNNs) and more recently, Transformer models. These models are designed to handle sequential data, which is a natural fit for text data.
+Let's delve into an example to see how these concepts work in practice. Consider the sentence: "The quick brown fox jumps over the lazy dog."
+* Tokenization: [The, quick, brown, fox, jumps, over, the, lazy, dog]
+* Part-of-Speech Tagging: [DT, JJ, JJ, NN, VBZ, IN, DT, JJ, NN]
+* Named Entity Recognition: No named entities in this sentence
+* Sentiment Analysis: Neutral sentiment
+NLP is not just about processing text; it's about understanding the context and meaning behind the words. This is where the real challenge lies, as language is inherently complex and ambiguous.
+As we progress in this course, we'll explore more advanced NLP techniques and their applications. We'll also see how NLP integrates with other AI technologies to create more intelligent and interactive systems.
+To get a hands-on understanding, try experimenting with simple NLP tasks using Python libraries like NLTK or spaCy. These libraries provide easy-to-use interfaces for performing various NLP tasks. Remember, the goal of NLP is to make machines understand human language as closely as possible, enabling more natural and effective human-computer interactions.
+Applications of NLP in Real-World Scenarios
+Natural Language Processing (NLP) is a powerful tool that leverages machine learning and neural networks to understand, interpret, and generate human language. In previous lessons, we've delved into the fundamentals of machine learning, neural networks, and the basics of NLP. Now, let's explore some real-world applications of NLP, demonstrating how these concepts are practically applied.
+1. Sentiment Analysis Sentiment analysis, also known as opinion mining, is a popular NLP application used to determine the sentiment expressed in a piece of text, such as positive, negative, or neutral. This technique is widely used in social media monitoring, customer feedback analysis, and market research. For instance, companies can analyze customer reviews to gauge public opinion about their products or services. By understanding customer sentiment, businesses can make informed decisions to improve their offerings.
+2. Chatbots and Virtual Assistants Chatbots and virtual assistants, like Siri, Alexa, and Google  Assistant, use NLP to understand and respond to user queries in natural language. These systems  employ techniques such as intent recognition and entity extraction to comprehend user requests and  provide relevant responses. For example, when you ask a virtual assistant to play your favorite song, it uses NLP to identify the intent (playing a song) and the entity (your favorite song) to fulfill your request.
+3. Machine Translation Machine translation is another significant application of NLP that enables  automatic translation of text from one language to another. Services like Google Translate use advanced NLP models to provide real-time translation, facilitating communication across different languages. This application is crucial for global businesses, travelers, and individuals seeking to understand content in foreign languages.
+4. Text Summarization Text summarization is an NLP technique used to condense large texts into shorter versions while preserving the main ideas. This application is particularly useful for news articles, research papers, and legal documents, where users may need to quickly grasp the key points
+
+without reading the entire text. Automated summarization tools can save time and improve efficiency in information processing.
+5. Spam Detection Spam detection is a critical application of NLP in email services and social media platforms. By analyzing the content of messages, NLP algorithms can identify spam emails or posts and filter them out, ensuring that users receive only relevant and legitimate content. This application helps maintain the quality of online communication and protects users from unwanted or malicious content.
+6. Recommendation Systems Recommendation systems use NLP to analyze user behavior and preferences to suggest relevant products, services, or content. For example, streaming platforms like Netflix and Spotify use NLP to understand user tastes and recommend movies, shows, or music based on viewing or listening history. This personalized approach enhances user experience and engagement.
+7. Healthcare In the healthcare sector, NLP is used to analyze medical records, research papers, and patient data to extract valuable insights. This application can help in diagnosing diseases, predicting patient outcomes, and personalizing treatment plans. For instance, NLP can be used to identify patterns in patient symptoms and medical history to assist doctors in making accurate diagnoses.
+
+Natural language understanding (NLU)
+NLU enables computers to comprehend human language by breaking it down into hierarchical layers lexical, syntactic, semantic, and pragmatic analysis. It uses machine learning to transform unstructured text into structured data, focusing on grammatical structure (syntax) and meaning (semantics). Key techniques include parsing for structure and semantic modeling for interpretation.
+
+Syntactic Structures (Syntax)
+Syntax focuses on the grammatical rules, order, and structure of sentences.
+i. Parsing: Breaking sentences into constituents (phrases, clauses) to determine relationships,  often using syntax trees to visualize grammatical structure.
+ii. Parts-of-Speech (POS) Tagging: Identifying words as nouns, verbs, adjectives, etc..
+iii. Subject-Verb-Object (SVO): The basic structural arrangement in many languages.
+Semantic Structures (Semantics)
+Semantics focuses on the meaning of words, phrases, and sentences in context.
+InsightSofa
+i. Lexical Semantics: Analyzing the meaning of individual words and their relationships (e.g., synonymy, polysemy).
+ii. Compositional Semantics: How smaller units combine to form the meaning of larger expressions.
+iii. Semantic Networks: Graph-based structures where nodes represent concepts and edges represent relationships.
+iv. Frames: Hierarchical knowledge representations used for modeling complex scenarios or context.
+v. Ontologies: Formal definitions of classes and relationships within a specific domain.
+NLU Process Layers
+i. Lexical Analysis: Breaking down text into tokens (words).
+ii. Syntactic Analysis: Checking adherence to grammar.
+iii. Semantic Analysis: Ensuring the sentence conveys a logical meaning.
+iv. Pragmatic Analysis: Interpreting real-world context, intent, and non-literal components.
+Modern Approaches
+i. Deep Learning: Using models like RNNs, LSTMs, and CNNs to learn complex language patterns.
+ii. Transformers: Models like BERT and GPT utilize attention mechanisms for state-of-the-art understanding of both syntax and semantics.
+
+iii. Hybrid Learning: Combining supervised (labeled data) and unsupervised (unlabeled data) techniques.
+
+INTRODUCTION TO EXPERT SYSTEMS
+An expert system is a computer program designed to simulate the decision-making ability of a human  expert. It uses a knowledge base of facts and rules and an inference engine to apply logical rules to  the known facts and deduce new facts. The goal is to provide expert-level solutions, explanations, and recommendations in a specific domain.
+Features of Expert Systems
+i. High performance in a narrow domain.
+ii. Explanation ability (can justify conclusions).
+iii. Reasoning under uncertainty (using probabilistic logic or fuzzy logic).
+iv. Rule-based or case-based reasoning.
+v. User-friendly interfaces.
+Basic Components of an Expert System
+ComponentDescriptionKnowledge BaseContains domain-specific facts and rules.Inference EngineApplies logical rules to the knowledge base to deduce conclusions.User InterfaceAllows users to interact with the system.
+Knowledge Base
+It contains domain-specific and high-quality knowledge. Knowledge is required to exhibit intelligence. The success of any ES majorly depends upon the collection of highly accurate and precise knowledge.
+Components of Knowledge Base
+The knowledge base of an ES is a store of both, factual and heuristic knowledge.
+i. Factual Knowledge - It is the information widely accepted by the Knowledge Engineers and scholars in the task domain.
+ii. Heuristic Knowledge - It is about practice, accurate judgment, one's ability of evaluation, and
+guessing.
+Knowledge Acquisition
+The success of any expert system majorly depends on the quality, completeness, and accuracy of the information stored in the knowledge base. The knowledge base is formed by readings from various experts, scholars, and the Knowledge Engineers. The knowledge engineer is a person with the
+
+qualities of empathy, quick learning, and case analyzing skills. He acquires information from subject expert by recording, interviewing, and observing him at work, etc. He then categorizes and organizes the information in a meaningful way, in the form of IF-THEN-ELSE rules, to be used by interference machine. The knowledge engineer also monitors the development of the ES.
+Inference Engine
+Use of efficient procedures and rules by the Inference Engine is essential in deducting a correct, flawless solution. In case of knowledge-based ES, the Inference Engine acquires and manipulates the knowledge from the knowledge base to arrive at a particular solution.
+In case of rule-based ES, it:
+i. Applies rules repeatedly to the facts, which are obtained from earlier rule application.
+ii. Adds new knowledge into the knowledge base if required.
+ iii. Resolves rules conflict when multiple rules are applicable to a particular case To recommend a solution, the inference engine uses the following strategies:
+i. Forward Chaining
+ii. Backward Chaining
+Forward Chaining
+It is a strategy of an expert system to answer the question, "What can happen next?" Here, the inference engine follows the chain of conditions and derivations and finally deduces the outcome. It considers all the facts and rules, and sorts them before concluding to a solution. This strategy is followed for working on conclusion, result, or effect. For example, prediction of share market status as an effect of changes in interest rates.
+
+Backward Chaining
+With this strategy, an expert system finds out the answer to the question, "Why this happened?" On the basis of what has already happened, the inference engine tries to find out which conditions could have happened in the past for this result. This strategy is followed for finding out cause or reason. For example, diagnosis of blood cancer in humans.
+
+User Interface
+User interface provides interaction between user of the ES and the ES itself. It is generally Natural
+
+Language Processing so as to be used by the user who is well-versed in the task domain. The user of the ES need not be necessarily an expert in Artificial Intelligence. It explains how the ES has arrived at a particular recommendation. The explanation may be in the following forms:
+i. Natural language displayed on screen
+ii. Verbal narrations in natural language
+iii. Listing of rule numbers displayed on the screen.
+The user interface makes it easy to trace the credibility of the deductions.
+Requirements of Efficient ES User Interface
+i. It should help users to accomplish their goals in shortest possible way.
+ii. It should be designed to work for user's existing or desired work practices.
+iii. Its technology should be adaptable to user's requirements; not the other way round.
+iv. It should make efficient use of user input.
+Expert Systems Limitations
+No technology can offer easy and complete solution. Large systems are costly, require significant development time, and computer resources. ESs have their limitations which include:
+i. Limitations of the technology
+ii. Difficult knowledge acquisition
+iii. ES are Difficult to maintain
+iv. High Development costs
+
+Applications of Expert System
+ApplicationDescriptionDesign DomainCamera lens design, automobile design.Medical DomainDiagnosis Systems to deduce cause of disease from observed data, conduction medical operations on humans.Monitoring SystemsComparing data continuously with observed system or with prescribed behavior such as leakage monitoring in long petroleum pipeline.Process Control SystemsControlling a physical process based on monitoring.Knowledge DomainFinding out faults in vehicles, computers.Finance/CommerceDetection of possible fraud, suspicious transactions, stock market trading, Airline scheduling, cargo scheduling.AgriculturePest diagnosis and crop management and Soil and fertilizer advisory
+systems.EducationIntelligent tutoring systems and Personalized learning paths.
+Expert System Technology
+There are several levels of ES technologies available. Expert systems technologies include:
+a. Expert System Development Environment: The ES development environment includes hardware and tools. They are:
+i. Workstations, minicomputers, mainframes
+ii. High level Symbolic Programming Languages such as LIS Programming (LISP) and
+PROgrammation en LOGique (PROLOG).
+iii. Large databases
+b. Tools: They reduce the effort and cost involved in developing an expert system to large extent.
+i. Powerful editors and debugging tools with multi-windows.
+ii. They provide rapid prototyping
+
+iii. Have Inbuilt definitions of model, knowledge representation, and inference design.
+c. Shells: A shell is nothing but an expert system without knowledge base. A shell provides the developers with knowledge acquisition, inference engine, user interface, and explanation facility. For example, few shells are given below:
+i. Java Expert System Shell (JESS) that provides fully developed Java API for creating an expert system.
+ii. Vidwan, a shell developed at the National Centre for Software Technology, Mumbai in 1993. It enables knowledge encoding in the form of IF-THEN rules.
+Development of Expert Systems: General Steps
+The process of ES development is iterative. Steps in developing the ES include:
+a. Identify Problem Domain
+i. The problem must be suitable for an expert system to solve it.
+ii. Find the experts in task domain for the ES project.
+iii. Establish cost-effectiveness of the system.
+b. Design the System
+i. Identify the ES Technology.
+ii. Know and establish the degree of integration with the other systems and databases.
+iii. Realize how the concepts can represent the domain knowledge best.
+c. Develop the Prototype
+Form Knowledge Base: The knowledge engineer works to:
+i. Acquire domain knowledge from the expert.
+ii. Represent it in the form of If-THEN-ELSE rules.
+d. Test and Refine the Prototype
+i. The knowledge engineer uses sample cases to test the prototype for any deficiencies in performance.
+ii. End users test the prototypes of the ES.
+e. Develop and Complete the ES
+i. Test and ensure the interaction of the ES with all elements of its environment, including end users, databases, and other information systems.
+ii. Document the ES project well.
+iii. Train the user to use ES.
+f. Maintain the System
+i. Keep the knowledge base up-to-date by regular review and update.
+ii. Cater for new interfaces with other information systems, as those systems evolve.
+
+Benefits of Expert Systems
+i. Availability: They are easily available due to mass production of software.
+ii. Less Production Cost: Production cost is reasonable. This makes them affordable.
+iii. Speed: They offer great speed. They reduce the amount of work an individual puts in.
+iv. Less Error Rate: Error rate is low as compared to human errors.
+v. Reducing Risk: They can work in the environment dangerous to humans.
+vi. Steady response: They work steadily without getting motional, tensed or fatigued.
+Limitations
+i. Limited to specific domains
+ii. Expensive and time-consuming to develop
+iii. Cannot learn or adapt unless updated manually
+iv. Lacks common sense and emotional intelligence
+Future Trends
+
+i. Integration with machine learning and big data
+ii. Use in real-time decision-making systems
+iii. Mobile and cloud-based expert systems
+iv. Hybrid systems combining expert knowledge with learning algorithms
+
+PROGRAMMING LANGUAGES FOR AI
+Programming languages play a crucial role in AI by providing the tools and frameworks necessary to build and train machine learning models, process vast amounts of data, and create intelligent algorithms. Whether it's developing natural language processing systems, computer vision applications, or predictive analytics solutions, the choice of programming language can significantly impact AI projects' efficiency, scalability, and performance.
+Artificial Intelligence (AI) has become a driving force in many industries, and programming languages play a crucial role in developing AI systems. When you're hiring or partnering to deliver AI capabilities, aligning early with the engineering practices of the web app development companies you're considering can help ensure language, library, and deployment choices translate cleanly into production. While numerous programming languages are available, specific languages have emerged as popular choices for AI development due to their features, libraries, and community support. AI uses key programming languages: Python, R, Java, Julia, Swift, Go, and Rust. Each language offers unique advantages and is often chosen based on the specific requirements of the AI project.
+i. Python is widely regarded as the dominant language in the AI field. Thanks to its easy-to- learn syntax and an extensive collection of libraries for machine learning, deep learning, and data analysis, Python is a go-to for building and deploying AI models. Libraries like TensorFlow, PyTorch, and sci-kit have made it so.
+ii. R is powerful in statistical modeling and data visualization, making it a popular choice for academic research and exploratory data analysis tasks in AI projects.
+iii. Java and other JVM languages, such as Scala and Clojure, are commonly used in enterprise-level AI solutions due to their scalability, cross-platform support, and robust ecosystem. These languages are often employed in distributed computing frameworks like Apache Spark and Hadoop, essential for handling large-scale data processing tasks.
+iv. Julia, a relatively new language, has gained traction in the AI community due to its high- performance computing capabilities and ease of use. Although its syntax is similar to Python's, Julia offers superior speed and native parallelism, making it suitable for computationally intensive tasks like scientific computing and numerical simulations.
+v. Swift is particularly relevant for building AI-powered iOS applications
+vi. Go excels in concurrent processing tasks. With its focus on memory safety and performance
+vii. Rust is often used in low-level, high-performance AI systems.
+Several general requirements must be considered when implementing AI projects, such as scalability, library support, and ease of deployment. AI systems often deal with large datasets and complex models, necessitating languages and frameworks that efficiently handle these demands.
+Additionally, the availability of robust libraries and tools for tasks like data preprocessing, model training, and evaluation is crucial for streamlining the development process.
+Python has emerged as the undisputed leader in artificial intelligence (AI) and machine learning (ML). Its popularity stems from its simplicity, readability, and the vast array of powerful libraries and frameworks available for AI development.
+Python's clean and intuitive syntax makes it accessible to both beginners and experienced programmers, allowing them to focus on the core concepts of AI rather than wrestling with complex language constructs.
+
+One key factor contributing to Python's dominance is the rich ecosystem of AI-centric libraries. TensorFlow, developed by Google, is a comprehensive open-source library for numerical computation and large-scale machine learning.
+PyTorch, created by Facebook's AI research team, is another popular library known for its user- friendly interface and dynamic computation capabilities. scikit-learn, a machine learning library, provides a wide range of classification, regression, clustering, and dimensionality reduction algorithms.
+Python's vibrant community is another driving force behind its success in AI. With a large and active developer base, Python benefits from continuous improvements, bug fixes, and the development of new libraries and tools.
+This collaborative effort ensures that Python remains at the forefront of AI innovation, constantly adapting to new challenges and requirements.
+Here's a simple comparison table to summarize the key factors:
+LanguageSpeedEase of useLibrary supportDeployment optionsPythonModerateHighExtensiveWeb, cloud, embeddedRModerateModerateStrong for data scienceWeb, desktop appsJavaHighModerateEnterprise-levelCross-platform, scalableJuliaHighModerateGrowingHPC, scientific computingSwiftHighHighLimited for AIiOS, macOS AppsGoHighModerateGrowingConcurrent systemsRustHighModerateLimited for AISystems programmingRemember, the choice of an AI programming language ultimately depends on your project's specific requirements, your team's expertise, and the trade-offs you're willing to make regarding performance, ease of use, and ecosystem support.
+
+INTRODUCTION TO COMPUTER IMAGE RECOGNITION.
+Image recognition is an application of machine learning (ML) that enables software and devices to identify objects, places, people, writing and actions in digital images or video. Image recognition technology enables computers to identify product defects, helps medical professionals spot anomalies and is integral to the development of autonomous vehicles. Image recognition is a core task of computer vision, the broader field of artificial intelligence (AI) technology that enables software and machines to understand and react to visual data. Engineers use traditional machine learning and deep learning models in image recognition. These approaches are typically separate, and whether they are combined or used independently depends on the specific problem and resource requirements.
+
+Image Recognition is a fundamental task in computer vision which enable machines to identify and categorize objects in images or videos. It involves analyzing pixel data, extracting patterns and classifying visual information using machine learning (ML) and deep learning (DL) techniques. This capability of Image Recognition is widely used in autonomous vehicles, facial recognition, medical diagnostics, security systems and industrial automation.
+Key Components of Image Recognition
+i. Image Preprocessing: This is one of the crucial steps in image recognition which enhances image quality and prepares data for feature extraction and classification. It ensures that models receive clean, standardized and optimized images by improving accuracy and efficiency.
+ii. Feature Extraction: It is a step in image recognition where meaningful patterns, edges, textures and key points are identified from an image. These extracted features are then used for object detection, classification and pattern recognition. This can be done using traditional computer vision techniques such as edge detection and keypoint descriptors or deep learning- based methods such as Convolutional Neural Networks.
+iii. Image classification: This is a fundamental task in computer vision that involves assigning a label or category to an image based on its content. It is widely used in applications such as
+
+face recognition, medical diagnosis, self-driving cars and object detection. There are main approaches to image classification:
+a. Traditional Machine Learning-Based Classification using manually extracted features such as SIFT, HOG and ORB.
+b. Deep Learning-Based Classification using CNNs, Vision Transformers and pre- trained models
+Steps in Image Recognition
+To perform Image Recognition we need to follow the steps as mentioned below:
+Image Acquisition and Preprocessing
+Before analyzing an image, it must be cleaned and prepared. Here are the Preprocessing techniques of Image Recognition:
+i. Resizing & Normalization: It is the process of standardizing image size and pixel values.
+ii. Data Augmentation: This is a technique used in computer vision to artificially increase the size of a dataset by applying transformations to existing images. The commonly used techniques such as rotation, flipping, cropping and contrast adjustments which helps to improve model robustness.
+iii. Noise Reduction: It is the process of removing unwanted distortions i.e., noise from images while preserving important features. Noise can be caused by low-light conditions, sensor imperfections or transmission errors. By using filters like Gaussian blur we can remove image noise.
+iv. Color Space Conversion: This is the process of converting RGB images to grayscale when color information is unnecessary.
+Feature Extraction
+Feature extraction identifies key attributes of an image such as edges, shapes and textures. Following are the methods used to perform Feature Extraction:
+i. Edge Detection: This method detects the object boundaries by identifying sudden intensity changes. The commonly used techniques are Canny and Sobel.
+ii. Histogram of Oriented Gradients (HOG): It extracts structural features by computing gradient orientations.
+iii. Keypoint Detection: This method detects unique points in an image for object tracking and recognition. The Keypoint Detection can be done by using the techniques such as SIFT, ORB, SURF.
+Classification using Machine Learning or Deep Learning
+Image classification is the process of assigning a label or category to an image based on its visual features. It is widely used in object detection, medical imaging and facial recognition. Here are the approaches:
+i. Machine Learning Approach: This uses handcrafted features such as edges, shapes and textures to classify images.
+ii. Deep Learning Approach: This uses neural networks such as CNNs, Transformers to automatically learn features.
+Training the Model
+Model training is the process of teaching an algorithm to recognize patterns in images by feeding it labeled data. The model learns by adjusting its parameters i.e., weights and biases to minimize classification errors. Here are the training methods -
+i. Supervised Learning: In this model the data is trained on labeled datasets i.e., ImageNet, COCO.
+ii. Transfer Learning: This model can be trained with the pretrained models and fine-tuning them for specific tasks.
+Prediction and Inference
+The trained model analyzes new images and predicts object categories based on learned patterns.
+
+
+
+
