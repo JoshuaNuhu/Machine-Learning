@@ -39,7 +39,7 @@ Every project in this repository follows a standardized data science lifecycle:
 2.  **Data Preprocessing:** Handling missing values, encoding categorical variables, and feature scaling.
 3.  **Model Selection:** Comparing multiple algorithms to find the best fit for the specific dataset.
 4.  **Optimization:** Iterative tuning of hyperparameters to minimize loss and improve generalization.
-5.  **Evaluation:** Using robust metrics such as Accuracy, F1-Score, and Mean Squared Error (MSE).
+5.  **Evaluation:** Using robust metrics such as Accuracy, R2 Score, and Root Mean Squared Error (RMSE).
 
 
 
